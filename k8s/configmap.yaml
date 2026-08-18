@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: day303-config
+  namespace: day303
+data:
+  APP_VERSION: "1.0"
