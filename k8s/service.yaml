@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: day303-secret
+  namespace: day303
+type: Opaque
+stringData:
+  APP_ENV: "production"
